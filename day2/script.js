@@ -42,21 +42,5 @@ switch (q) {
 
 }
 
-let w = counter();
-let e = counter();
-
-function counter() {
-    let count  = 0;
-    return function () {return ++count;};
-}
- console.log(w());
- console.log(w());
- console.log(e());
- console.log(e());
- console.log(w());
- console.log(w());
-  
-
-
 console.log(personalMovieDB);
 console.log(personalMovieDB.movies);
